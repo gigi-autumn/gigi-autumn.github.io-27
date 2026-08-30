@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Screen & Scene — The Witty Muse</title>
+
+  <link rel="stylesheet" href="screen.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="top-note">
+    THE WITTY MUSE — SCREEN & SCENE ♡
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <a href="index.html" class="logo">
+      <span>THE</span>
+      WITTY MUSE
+      <small>EST. 2026</small>
+    </a>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="diary.html">DIARY</a>
+      <a href="fashion.html">FASHION</a>
+      <a href="screen.html" class="active">SCREEN & SCENE</a>
+      <a href="books.html">BOOKS</a>
+      <a href="playlist.html">PLAYLIST</a>
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+
+  <section class="screen-hero">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">01 — SCREEN & SCENE</p>
+
+      <h1>
+        Stories<br>
+        worth <i>watching.</i>
+      </h1>
+
+      <p>
+        Films, series, characters, comfort shows
+        and all the fictional worlds I keep
+        coming back to.
+      </p>
+
+      <a href="#currently" class="button">
+        ENTER THE SCREEN →
+      </a>
+
+    </div>
+
+    <div class="hero-image">
+      <img src="images/image1.jpg" alt="Movies and Series">
+    </div>
+
+  </section>
+
+
+  <!-- CURRENTLY WATCHING -->
+
+  <section class="currently" id="currently">
+
+    <div class="section-heading">
+
+      <div>
+        <p>02 — CURRENTLY WATCHING</p>
+
+        <h2>
+          On my<br>
+          <i>screen.</i>
+        </h2>
+      </div>
+
+      <span>
+        ONE MORE EPISODE.<br>
+        ALWAYS.
+      </span>
+
+    </div>
+
+
+    <div class="watching-grid">
+
+      <article class="show-card">
+
+        <div class="show-image">
+          <img src="images/image2.jpg" alt="Currently watching">
+        </div>
+
+        <div class="show-info">
+          <span>SERIES</span>
+          <h3>Criminal Minds</h3>
+
+          <div class="rating">
+            ★★★★★
+          </div>
+
+          <p>
+            The kind of show that somehow turns
+            "one episode" into an entire evening.
+          </p>
+        </div>
+
+      </article>
+
+
+      <article class="show-card">
+
+        <div class="show-image">
+          <img src="images/image3.jpg" alt="Currently watching">
+        </div>
+
+        <div class="show-info">
+          <span>SERIES</span>
+          <h3>How I Met Your Mother</h3>
+
+          <div class="rating">
+            ★★★★★
+          </div>
+
+          <p>
+            Comfort, comedy, friendships
+            and a little bit of chaos.
+          </p>
+        </div>
+
+      </article>
+
+
+      <article class="show-card">
+
+        <div class="show-image">
+          <img src="images/image4.jpg" alt="Currently watching">
+        </div>
+
+        <div class="show-info">
+          <span>SERIES</span>
+          <h3>The Nanny</h3>
+
+          <div class="rating">
+            ★★★★★
+          </div>
+
+          <p>
+            Fashion, comedy and Fran Fine.
+            What more could a girl ask for?
+          </p>
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- FAVORITE MOVIE -->
+
+  <section class="movie-feature">
+
+    <div class="movie-image">
+      <img src="images/image5.jpg" alt="Favorite movie">
+    </div>
+
+    <div class="movie-content">
+
+      <p>03 — MOVIE I LOVE</p>
+
+      <h2>
+        10 Things<br>
+        I Hate <i>About You.</i>
+      </h2>
+
+      <div class="movie-rating">
+        ★★★★★
+      </div>
+
+      <p>
+        A little romance, a little comedy,
+        unforgettable characters and exactly
+        the kind of movie that deserves
+        a rewatch.
+      </p>
+
+      <div class="movie-note">
+        <span>MOOD</span>
+        <strong>ROM-COM · 90s/2000s · COMFORT</strong>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- COMFORT SHOWS -->
+
+  <section class="comfort">
+
+    <p class="eyebrow">04 — COMFORT SHOWS</p>
+
+    <h2>
+      Shows I could<br>
+      watch <i>forever.</i>
+    </h2>
+
+
+    <div class="comfort-list">
+
+      <div>
+        <span>01</span>
+        <strong>CRIMINAL MINDS</strong>
+        <p>For the mystery & the familiar faces.</p>
+      </div>
+
+      <div>
+        <span>02</span>
+        <strong>HOW I MET YOUR MOTHER</strong>
+        <p>For laughs, friendships & nostalgia.</p>
+      </div>
+
+      <div>
+        <span>03</span>
+        <strong>THE NANNY</strong>
+        <p>For the outfits. Obviously.</p>
+      </div>
+
+      <div>
+        <span>04</span>
+        <strong>MAGICAL STORIES</strong>
+        <p>For when reality needs a little magic.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CHARACTER CORNER -->
+
+  <section class="characters">
+
+    <div class="character-image">
+      <img src="images/image2.jpg" alt="Character inspiration">
+    </div>
+
+    <div class="character-content">
+
+      <p>05 — CHARACTER CORNER</p>
+
+      <h2>
+        Fictional people<br>
+        who live <i>rent-free.</i>
+      </h2>
+
+      <p>
+        Some characters stay with you long after
+        the credits roll. These are the ones I
+        can't stop thinking about.
+      </p>
+
+      <div class="character-list">
+
+        <span>♡ THE CLEVER ONE</span>
+        <span>♡ THE CHAOTIC ONE</span>
+        <span>♡ THE FASHIONABLE ONE</span>
+        <span>♡ THE ONE I WOULD BE FRIENDS WITH</span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- WATCHLIST -->
+
+  <section class="watchlist">
+
+    <div class="watchlist-heading">
+
+      <p>06 — MY WATCHLIST</p>
+
+      <h2>
+        Things I need<br>
+        to <i>watch.</i>
+      </h2>
+
+    </div>
+
+
+    <div class="watchlist-items">
+
+      <div>
+        <span>01</span>
+        <strong>THE NEXT MOVIE</strong>
+        <p>Something romantic & funny.</p>
+      </div>
+
+      <div>
+        <span>02</span>
+        <strong>A NEW SERIES</strong>
+        <p>Preferably something addictive.</p>
+      </div>
+
+      <div>
+        <span>03</span>
+        <strong>A CLASSIC</strong>
+        <p>Finally watching the one everyone loves.</p>
+      </div>
+
+      <div>
+        <span>04</span>
+        <strong>SOMETHING MAGICAL</strong>
+        <p>Because sometimes reality is overrated.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SCREEN NOTES -->
+
+  <section class="screen-notes">
+
+    <p>07 — SCREEN NOTES</p>
+
+    <h2>
+      My rule for<br>
+      choosing a <i>movie.</i>
+    </h2>
+
+    <div class="rule">
+
+      <span>♡</span>
+
+      <p>
+        If it makes me laugh, cry,
+        fall in love with a fictional character,
+        or immediately want to rewatch it —
+        it's a good movie.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- END -->
+
+  <section class="screen-ending">
+
+    <p>END OF THE SCREEN</p>
+
+    <div>🎬</div>
+
+    <h2>
+      Press play.<br>
+      Escape reality.<br>
+      <i>Repeat.</i>
+    </h2>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-logo">
+      THE WITTY MUSE
+    </div>
+
+    <p>
+      Fashion · Films · Books · Music · Little Things
+    </p>
+
+    <div class="footer-links">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="diary.html">DIARY</a>
+      <a href="fashion.html">FASHION</a>
+      <a href="screen.html">SCREEN</a>
+    </div>
+
+    <small>
+      © 2026 THE WITTY MUSE ♡
+    </small>
+
+  </footer>
+
+</body>
+</html>
