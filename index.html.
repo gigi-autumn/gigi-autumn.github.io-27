@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Witty Muse</title>
+
+  <link rel="stylesheet" href="home.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+
+  <div class="top-bar">
+    THE WITTY MUSE — A LITTLE CORNER OF MY WORLD ♡
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <a href="index.html" class="logo">
+
+      <span>THE</span>
+
+      WITTY MUSE
+
+      <small>EST. 2026</small>
+
+    </a>
+
+
+    <nav>
+
+      <a href="index.html" class="active">HOME</a>
+
+      <a href="about.html">ABOUT</a>
+
+      <a href="diary.html">DIARY</a>
+
+      <a href="fashion.html">FASHION</a>
+
+      <a href="screen.html">SCREEN</a>
+
+      <a href="books.html">BOOKS</a>
+
+      <a href="playlist.html">PLAYLIST</a>
+
+      <a href="caramel.html">CARAMEL</a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-photo">
+
+        <img src="images/home-hero.jpg" alt="The Witty Muse">
+
+      </div>
+
+
+      <div class="hero-card">
+
+        <p class="eyebrow">
+          WELCOME TO MY LITTLE WORLD
+        </p>
+
+        <h1>
+          The<br>
+          <i>Witty</i><br>
+          Muse.
+        </h1>
+
+        <p class="intro">
+          Fashion, films, books, music,
+          autumn days and all the little
+          things that make life feel pretty.
+        </p>
+
+        <a href="about.html" class="button">
+          MEET THE MUSE →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro-section">
+
+      <div class="number">
+        01
+      </div>
+
+      <div class="intro-text">
+
+        <p class="eyebrow">
+          A PERSONAL JOURNAL
+        </p>
+
+        <h2>
+          Welcome to my<br>
+          <i>beautiful mess.</i>
+        </h2>
+
+        <p>
+          A little collection of the things I love —
+          the clothes I save, the stories I watch,
+          the books I underline, the songs I replay
+          and the tiny moments I don't want to forget.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="categories">
+
+      <div class="section-title">
+
+        <p class="eyebrow">
+          02 — EXPLORE
+        </p>
+
+        <h2>
+          Things I<br>
+          <i>love.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="category-grid">
+
+
+        <!-- FASHION -->
+
+        <a href="fashion.html" class="category fashion-card">
+
+          <img src="images/home-fashion.jpg" alt="Fashion">
+
+          <div class="category-overlay">
+
+            <span>01</span>
+
+            <h3>
+              Fashion
+            </h3>
+
+            <p>
+              Style · Vogue · Looks
+            </p>
+
+          </div>
+
+        </a>
+
+
+        <!-- SCREEN -->
+
+        <a href="screen.html" class="category screen-card">
+
+          <img src="images/home-screen.jpg" alt="Movies and Series">
+
+          <div class="category-overlay">
+
+            <span>02</span>
+
+            <h3>
+              Screen
+            </h3>
+
+            <p>
+              Movies · Series · Characters
+            </p>
+
+          </div>
+
+        </a>
+
+
+        <!-- BOOKS -->
+
+        <a href="books.html" class="category books-card">
+
+          <img src="images/home-books.jpg" alt="Books">
+
+          <div class="category-overlay">
+
+            <span>03</span>
+
+            <h3>
+              Books
+            </h3>
+
+            <p>
+              Reading · Stories · Pages
+            </p>
+
+          </div>
+
+        </a>
+
+
+        <!-- MUSIC -->
+
+        <a href="playlist.html" class="category music-card">
+
+          <img src="images/home-music.jpg" alt="Music">
+
+          <div class="category-overlay">
+
+            <span>04</span>
+
+            <h3>
+              Playlist
+            </h3>
+
+            <p>
+              Songs · Artists · Moods
+            </p>
+
+          </div>
+
+        </a>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- FEATURED -->
+
+    <section class="featured">
+
+      <div class="featured-image">
+
+        <img src="images/home-featured.jpg" alt="Featured">
+
+      </div>
+
+
+      <div class="featured-content">
+
+        <p class="eyebrow">
+          03 — CURRENTLY
+        </p>
+
+        <h2>
+          Currently<br>
+          <i>obsessed with.</i>
+        </h2>
+
+        <p>
+          Autumn evenings, oversized sweaters,
+          caramel everything, old movies,
+          pretty books and songs that make
+          me feel like the main character.
+        </p>
+
+        <div class="currently-list">
+
+          <span>♡ CARAMEL LATTE</span>
+
+          <span>♡ AUTUMN MOVIES</span>
+
+          <span>♡ OVERSIZED KNITS</span>
+
+          <span>♡ A BOOK BEFORE BED</span>
+
+          <span>♡ TAYLOR ON REPEAT</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- DIARY -->
+
+    <section class="diary-preview">
+
+      <div class="diary-heading">
+
+        <p class="eyebrow">
+          04 — FROM THE DIARY
+        </p>
+
+        <h2>
+          Little thoughts<br>
+          from <i>my days.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="diary-posts">
+
+
+        <a href="diary.html" class="post">
+
+          <span>
+            01 — DIARY
+          </span>
+
+          <h3>
+            A slow autumn morning
+          </h3>
+
+          <p>
+            Coffee, a good playlist
+            and nowhere to be.
+          </p>
+
+          <strong>
+            READ →
+          </strong>
+
+        </a>
+
+
+        <a href="diary.html" class="post">
+
+          <span>
+            02 — THOUGHTS
+          </span>
+
+          <h3>
+            Things I'm loving lately
+          </h3>
+
+          <p>
+            Little favorites that
+            made my week better.
+          </p>
+
+          <strong>
+            READ →
+          </strong>
+
+        </a>
+
+
+        <a href="diary.html" class="post">
+
+          <span>
+            03 — NOTES
+          </span>
+
+          <h3>
+            My current mood
+          </h3>
+
+          <p>
+            Somewhere between
+            cozy and main character.
+          </p>
+
+          <strong>
+            READ →
+          </strong>
+
+        </a>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- CARAMEL -->
+
+    <section class="caramel">
+
+      <div class="caramel-content">
+
+        <p class="eyebrow">
+          05 — CARAMEL CORNER
+        </p>
+
+        <h2>
+          Sweet little<br>
+          <i>things.</i>
+        </h2>
+
+        <p>
+          Caramel, coffee, cozy evenings
+          and all the tiny treats that make
+          an ordinary day feel special.
+        </p>
+
+        <a href="caramel.html" class="button">
+          ENTER CARAMEL CORNER →
+        </a>
+
+      </div>
+
+
+      <div class="caramel-image">
+
+        <img src="images/home-caramel.jpg" alt="Caramel">
+
+      </div>
+
+    </section>
+
+
+    <!-- AUTUMN -->
+
+    <section class="autumn">
+
+      <div class="autumn-image">
+
+        <img src="images/home-autumn.jpg" alt="Autumn">
+
+      </div>
+
+
+      <div class="autumn-content">
+
+        <p class="eyebrow">
+          06 — AUTUMN
+        </p>
+
+        <h2>
+          My favorite<br>
+          <i>season.</i>
+        </h2>
+
+        <p>
+          Crisp mornings, golden leaves,
+          warm drinks, cozy clothes and
+          October evenings.
+        </p>
+
+        <a href="autumn.html" class="text-link">
+          AUTUMN DIARY →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- VOGUE NOTE -->
+
+    <section class="vogue">
+
+      <p class="eyebrow">
+        07 — VOGUE NOTES
+      </p>
+
+      <h2>
+        Fashion is not<br>
+        just what you <i>wear.</i>
+      </h2>
+
+      <p>
+        It's the mood, the attitude,
+        the little details and the way
+        you choose to tell your story.
+      </p>
+
+      <a href="vogue.html" class="button">
+        READ VOGUE NOTES →
+      </a>
+
+    </section>
+
+
+    <!-- FINAL -->
+
+    <section class="final-note">
+
+      <span>
+        ♡
+      </span>
+
+      <p>
+        Thanks for stopping by.
+      </p>
+
+      <h2>
+        Stay a little.<br>
+        Look around.<br>
+        <i>Make yourself at home.</i>
+      </h2>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-logo">
+      THE WITTY MUSE
+    </div>
+
+    <p>
+      Fashion · Films · Books · Music · Autumn · Little Things
+    </p>
+
+    <div class="footer-links">
+
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="diary.html">DIARY</a>
+      <a href="fashion.html">FASHION</a>
+      <a href="screen.html">SCREEN</a>
+      <a href="books.html">BOOKS</a>
+      <a href="playlist.html">PLAYLIST</a>
+      <a href="caramel.html">CARAMEL</a>
+
+    </div>
+
+    <small>
+      © 2026 THE WITTY MUSE ♡
+    </small>
+
+  </footer>
+
+</body>
+</html>
