@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #e9bfc9;
+  --dark-pink: #a85f72;
+  --cream: #fbf6f0;
+  --vanilla: #f3e7dc;
+  --brown: #493c3b;
+  --soft-brown: #756765;
+}
+
+body {
+  background: var(--cream);
+  color: var(--brown);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* TOP */
+
+.top-note {
+  background: var(--brown);
+  color: var(--cream);
+  text-align: center;
+  padding: 9px;
+  font-size: 9px;
+  letter-spacing: 3px;
+}
+
+
+/* HEADER */
+
+header {
+  padding: 35px 6%;
+  border-bottom: 1px solid #ded2ca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 29px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: .9;
+}
+
+.logo span {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  letter-spacing: 5px;
+  margin-bottom: 7px;
+}
+
+.logo small {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav a {
+  font-size: 9px;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 1px;
+  background: var(--dark-pink);
+  transition: .3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+/* PAGE TITLE */
+
+.page-title {
+  text-align: center;
+  padding: 130px 20px 100px;
+}
+
+.page-title > p:first-child {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--dark-pink);
+  margin-bottom: 30px;
+}
+
+.page-title h1 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: clamp(55px, 8vw, 105px);
+  line-height: .9;
+}
+
+.page-title h1 i {
+  color: var(--dark-pink);
+}
+
+.small-line {
+  width: 60px;
+  height: 1px;
+  background: var(--brown);
+  margin: 35px auto;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: var(--soft-brown);
+  letter-spacing: 1px;
+}
+
+
+/* ABOUT */
+
+.about {
+  padding: 50px 7% 140px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 80px;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-note {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: var(--cream);
+  padding: 13px 17px;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.eyebrow,
+.personality-heading > p,
+.favorites-title > p {
+  color: var(--dark-pink);
+  font-size: 9px;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.about-text h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: clamp(45px, 5vw, 72px);
+  line-height: .95;
+  margin-bottom: 35px;
+}
+
+.about-text h2 i {
+  color: var(--dark-pink);
+}
+
+.about-text p:not(.eyebrow) {
+  color: var(--soft-brown);
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+
+/* PERSONALITY */
+
+.personality {
+  background: var(--vanilla);
+  padding: 120px 7%;
+}
+
+.personality-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 70px;
+}
+
+.personality-heading h2,
+.favorites-title h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: clamp(50px, 6vw, 80px);
+  line-height: .9;
+}
+
+.personality-heading h2 i,
+.favorites-title h2 i {
+  color: var(--dark-pink);
+}
+
+.personality-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #d5c5ba;
+  border-bottom: 1px solid #d5c5ba;
+}
+
+.personality-grid > div {
+  padding: 35px 25px;
+  border-right: 1px solid #d5c5ba;
+}
+
+.personality-grid > div:last-child {
+  border-right: none;
+}
+
+.personality-grid span {
+  font-size: 9px;
+  color: var(--dark-pink);
+}
+
+.personality-grid h
