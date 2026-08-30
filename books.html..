@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Book Shelf — The Witty Muse</title>
+
+  <link rel="stylesheet" href="books.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="top-note">
+    THE WITTY MUSE — THE BOOK SHELF ♡
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <a href="index.html" class="logo">
+      <span>THE</span>
+      WITTY MUSE
+      <small>EST. 2026</small>
+    </a>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="diary.html">DIARY</a>
+      <a href="fashion.html">FASHION</a>
+      <a href="screen.html">SCREEN & SCENE</a>
+      <a href="books.html" class="active">BOOKS</a>
+      <a href="playlist.html">PLAYLIST</a>
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+
+  <section class="book-hero">
+
+    <div class="hero-image">
+      <img src="images/book1.jpg" alt="Books">
+    </div>
+
+    <div class="hero-content">
+
+      <p class="eyebrow">01 — THE BOOK SHELF</p>
+
+      <h1>
+        A room<br>
+        full of <i>stories.</i>
+      </h1>
+
+      <p>
+        Books I've loved, books I'm reading,
+        stories waiting on my shelf and
+        little thoughts between the pages.
+      </p>
+
+      <a href="#reading" class="button">
+        OPEN THE SHELF →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- CURRENTLY READING -->
+
+  <section class="reading" id="reading">
+
+    <div class="section-heading">
+
+      <div>
+        <p>02 — CURRENTLY READING</p>
+
+        <h2>
+          Between<br>
+          the <i>pages.</i>
+        </h2>
+      </div>
+
+      <span>
+        ONE CHAPTER<br>
+        BEFORE BED ♡
+      </span>
+
+    </div>
+
+
+    <div class="reading-feature">
+
+      <div class="book-cover">
+        <img src="images/book2.jpg" alt="Currently reading">
+      </div>
+
+      <div class="reading-info">
+
+        <span>CURRENT READ</span>
+
+        <h3>
+          My Current<br>
+          <i>Book.</i>
+        </h3>
+
+        <div class="stars">
+          ☆ ☆ ☆ ☆ ☆
+        </div>
+
+        <p>
+          A little corner for the book currently
+          sitting on my nightstand.
+        </p>
+
+        <div class="book-details">
+
+          <div>
+            <small>MOOD</small>
+            <strong>COZY · AUTUMN</strong>
+          </div>
+
+          <div>
+            <small>PROGRESS</small>
+            <strong>CHAPTER 07</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- BOOKS I LOVED -->
+
+  <section class="loved">
+
+    <p class="eyebrow">03 — BOOKS I LOVED</p>
+
+    <h2>
+      Stories that<br>
+      stayed with <i>me.</i>
+    </h2>
+
+
+    <div class="book-grid">
+
+      <article>
+        <div class="book-image">
+          <img src="images/book3.jpg" alt="Favorite book">
+        </div>
+
+        <span>01 — FAVORITE</span>
+        <h3>A Story I Loved</h3>
+        <p>★★★★★</p>
+      </article>
+
+
+      <article>
+        <div class="book-image">
+          <img src="images/book4.jpg" alt="Favorite book">
+        </div>
+
+        <span>02 — FAVORITE</span>
+        <h3>Another Favorite</h3>
+        <p>★★★★★</p>
+      </article>
+
+
+      <article>
+        <div class="book-image">
+          <img src="images/book5.jpg" alt="Favorite book">
+        </div>
+
+        <span>03 — FAVORITE</span>
+        <h3>A Book To Remember</h3>
+        <p>★★★★★</p>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- TBR -->
+
+  <section class="tbr">
+
+    <div class="tbr-heading">
+
+      <p>04 — MY TBR</p>
+
+      <h2>
+        Books waiting<br>
+        for their <i>turn.</i>
+      </h2>
+
+    </div>
+
+
+    <div class="tbr-list">
+
+      <div>
+        <span>01</span>
+        <strong>THE BOOK I KEEP POSTPONING</strong>
+        <p>One day I'll finally start it.</p>
+      </div>
+
+      <div>
+        <span>02</span>
+        <strong>THE PRETTY COVER</strong>
+        <p>Sometimes the cover is enough to convince me.</p>
+      </div>
+
+      <div>
+        <span>03</span>
+        <strong>THE RECOMMENDATION</strong>
+        <p>A book someone told me I absolutely need to read.</p>
+      </div>
+
+      <div>
+        <span>04</span>
+        <strong>THE AUTUMN READ</strong>
+        <p>Reserved for cold evenings and warm drinks.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FAVORITE AUTHORS -->
+
+  <section class="authors">
+
+    <div class="authors-image">
+      <img src="images/book6.jpg" alt="Bookshelf">
+    </div>
+
+    <div class="authors-content">
+
+      <p>05 — FAVORITE AUTHORS</p>
+
+      <h2>
+        Writers who<br>
+        know how to <i>tell a story.</i>
+      </h2>
+
+      <p>
+        There is something magical about finding
+        a writer whose words feel like they were
+        written exactly for you.
+      </p>
+
+      <div class="author-list">
+
+        <span>♡ MY FAVORITE WRITER</span>
+        <span>♡ THE ONE I ALWAYS RECOMMEND</span>
+        <span>♡ THE ONE WITH THE BEST CHARACTERS</span>
+        <span>♡ THE ONE I NEED TO READ MORE FROM</span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- BOOK OF MONTH -->
+
+  <section class="book-month">
+
+    <p>06 — BOOK OF THE MONTH</p>
+
+    <h2>
+      The little<br>
+      book <i>moment.</i>
+    </h2>
+
+    <div class="month-card">
+
+      <div class="month-cover">
+        <img src="images/book7.jpg" alt="Book of the month">
+      </div>
+
+      <div class="month-text">
+
+        <span>BOOK OF THE MONTH ♡</span>
+
+        <h3>
+          A book worth<br>
+          <i>remembering.</i>
+        </h3>
+
+        <p>
+          The book that currently has my heart.
+          The one I'd recommend to a friend
+          without hesitation.
+        </p>
+
+        <div class="month-rating">
+          ★★★★★
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- BOOK NOTES -->
+
+  <section class="book-notes">
+
+    <p>07 — LITTLE BOOK NOTES</p>
+
+    <h2>
+      Thoughts from<br>
+      <i>between the lines.</i>
+    </h2>
+
+    <div class="note-card">
+
+      <span>♡</span>
+
+      <p>
+        "Sometimes all you need is a quiet room,
+        a warm drink and a story you don't want
+        to put down."
+      </p>
+
+      <small>
+        — A LITTLE NOTE FROM THE WITTY MUSE
+      </small>
+
+    </div>
+
+  </section>
+
+
+  <!-- READING MOOD -->
+
+  <section class="reading-mood">
+
+    <p>08 — READING MOOD</p>
+
+    <h2>
+      What I want<br>
+      to read <i>tonight.</i>
+    </h2>
+
+    <div class="moods">
+
+      <div>
+        <span>☕</span>
+        <strong>COZY</strong>
+        <p>Something warm & comforting.</p>
+      </div>
+
+      <div>
+        <span>🍂</span>
+        <strong>AUTUMN</strong>
+        <p>Something atmospheric.</p>
+      </div>
+
+      <div>
+        <span>🌙</span>
+        <strong>MYSTERIOUS</strong>
+        <p>Something I can't stop thinking about.</p>
+      </div>
+
+      <div>
+        <span>♡</span>
+        <strong>ROMANTIC</strong>
+        <p>Something soft & lovely.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- END -->
+
+  <section class="book-ending">
+
+    <p>END OF THE SHELF</p>
+
+    <div>📖</div>
+
+    <h2>
+      One more chapter.<br>
+      Then I'll <i>sleep.</i>
+    </h2>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-logo">
+      THE WITTY MUSE
+    </div>
+
+    <p>
+      Fashion · Films · Books · Music · Little Things
+    </p>
+
+    <div class="footer-links">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="diary.html">DIARY</a>
+      <a href="fashion.html">FASHION</a>
+      <a href="screen.html">SCREEN</a>
+      <a href="books.html">BOOKS</a>
+    </div>
+
+    <small>
+      © 2026 THE WITTY MUSE ♡
+    </small>
+
+  </footer>
+
+</body>
+</html>
