@@ -13,10 +13,15 @@
   --soft-brown: #756765;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--cream);
   color: var(--brown);
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -25,7 +30,7 @@ a {
 }
 
 
-/* TOP */
+/* TOP NOTE */
 
 .top-note {
   background: var(--brown);
@@ -252,4 +257,262 @@ nav a:hover::after {
   color: var(--dark-pink);
 }
 
-.personality-grid h
+.personality-grid h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 23px;
+  font-weight: 400;
+  margin: 30px 0 15px;
+}
+
+.personality-grid p {
+  color: var(--soft-brown);
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+
+/* FAVORITES */
+
+.favorites {
+  padding: 130px 7%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 70px;
+}
+
+.favorite-list {
+  border-top: 1px solid #d9cdc5;
+}
+
+.favorite-item {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 0;
+  border-bottom: 1px solid #d9cdc5;
+}
+
+.favorite-item span {
+  color: var(--dark-pink);
+  font-size: 9px;
+}
+
+.favorite-item strong {
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.favorite-item p {
+  color: var(--soft-brown);
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
+
+/* QUOTE */
+
+.quote {
+  background: var(--pink);
+  text-align: center;
+  padding: 130px 20px;
+}
+
+.quote-mark {
+  font-family: 'DM Serif Display', serif;
+  font-size: 70px;
+  line-height: .5;
+  margin-bottom: 30px;
+}
+
+.quote h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: clamp(45px, 6vw, 80px);
+  line-height: .95;
+}
+
+.quote h2 i {
+  color: var(--dark-pink);
+}
+
+.quote p {
+  margin-top: 35px;
+  font-size: 8px;
+  letter-spacing: 3px;
+}
+
+
+/* FOOTER */
+
+footer {
+  background: var(--brown);
+  color: var(--cream);
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.footer-logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+footer p {
+  margin: 15px auto 30px;
+  font-size: 10px;
+  color: #d9cbc5;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.footer-links a {
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+footer small {
+  font-size: 7px;
+  letter-spacing: 2px;
+  color: #b9aaa4;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .about-text {
+    max-width: 650px;
+  }
+
+  .personality-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .personality-grid > div:nth-child(2) {
+    border-right: none;
+  }
+
+  .personality-grid > div:nth-child(3),
+  .personality-grid > div:nth-child(4) {
+    border-top: 1px solid #d5c5ba;
+  }
+
+  .favorites {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .top-note {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+
+  header {
+    padding: 28px 5%;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  nav a {
+    font-size: 7px;
+  }
+
+  .page-title {
+    padding: 90px 20px 70px;
+  }
+
+  .page-title h1 {
+    font-size: 55px;
+  }
+
+  .about {
+    padding: 30px 6% 90px;
+  }
+
+  .about-image img {
+    height: 450px;
+  }
+
+  .personality {
+    padding: 90px 6%;
+  }
+
+  .personality-heading {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .personality-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .personality-grid > div {
+    border-right: none !important;
+    border-bottom: 1px solid #d5c5ba;
+  }
+
+  .personality-grid > div:last-child {
+    border-bottom: none;
+  }
+
+  .personality-grid > div:nth-child(3),
+  .personality-grid > div:nth-child(4) {
+    border-top: none;
+  }
+
+  .favorites {
+    padding: 90px 6%;
+  }
+
+  .favorite-item {
+    grid-template-columns: 30px 1fr;
+  }
+
+  .favorite-item p {
+    grid-column: 2;
+    margin-top: 5px;
+  }
+
+  .quote {
+    padding: 100px 20px;
+  }
+
+  .quote h2 {
+    font-size: 48px;
+  }
+
+}
